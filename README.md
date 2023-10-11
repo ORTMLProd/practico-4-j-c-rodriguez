@@ -8,6 +8,6 @@
 ### Modeling
 
 - Experiment tracking
- - wandb
+ - wandb alerts
 
 - Hparam tuning
