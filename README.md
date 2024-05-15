@@ -38,6 +38,6 @@ El seguimiento de experimentos es esencial para mantener registros de diferentes
 
 Wandb proporciona alertas para monitorear el progreso del entrenamiento y notificarte sobre cualquier evento significativo, como alcanzar una nueva mejor precisión o encontrar una caída en el rendimiento. Las alertas ayudan a mantener el control del proceso de entrenamiento y responder rápidamente a los problemas.
 
-## Sintonización de Hiperparámetros
+### Hyperparameter tuning
 
-La sintonización de hiperparámetros implica encontrar el mejor conjunto de hiperparámetros para el modelo. Esto puede incluir ajustar la tasa de aprendizaje, el tamaño del lote, el número de épocas y parámetros específicos de la arquitectura como el número de filtros en las capas convolucionales. Utilizamos herramientas como wandb sweeps para la optimización sistemática de hiperparámetros.
+Hyperparameter tuning implica encontrar el mejor conjunto de hiperparámetros para el modelo. Esto puede incluir ajustar la tasa de aprendizaje, el tamaño del lote, el número de épocas y parámetros específicos de la arquitectura como el número de filtros en las capas convolucionales. Utilizamos herramientas como wandb sweeps para la optimización sistemática de hiperparámetros.
