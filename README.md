@@ -8,10 +8,10 @@ El flujo de trabajo incluye pasos de preprocesamiento de datos como el cambio de
 
 La ingeniería de características y el preprocesamiento de datos son pasos cruciales para preparar los datos para los modelos de aprendizaje automático. En este proyecto, realizamos los siguientes pasos:
 
-### Preprocesamiento (Cambio de Tamaño, Normalización, etc.)
+### Preprocesamiento (resizing, normalization, etc.)
 
-- **Cambio de Tamaño**: Ajustar las imágenes a un tamaño consistente para asegurar la uniformidad en las dimensiones de entrada.
-- **Normalización**: Escalar los valores de los píxeles a un rango estándar, típicamente [0, 1], para ayudar al modelo a converger más rápido durante el entrenamiento.
+- **resizing**: Ajustar las imágenes a un tamaño consistente para asegurar la uniformidad en las dimensiones de entrada.
+- **normalization**: Escalar los valores de los píxeles a un rango estándar, típicamente [0, 1], para ayudar al modelo a converger más rápido durante el entrenamiento.
 
 Estos pasos de preprocesamiento ayudan a transformar los datos brutos en un formato adecuado para la modelización, mejorando el rendimiento y la eficiencia del entrenamiento del modelo.
 
