@@ -1,44 +1,44 @@
 # Práctico 4
 
-This project demonstrates the process of feature engineering and data preprocessing for training a deep learning model on the CIFAR-10 dataset. The workflow includes data preprocessing steps such as resizing and normalization, implementing a transform pattern, building and training a convolutional neural network (CNN) model, tracking experiments using Weights & Biases (wandb), and hyperparameter tuning.
+Este proyecto demuestra el proceso de ingeniería de características y preprocesamiento de datos para entrenar un modelo de aprendizaje profundo en el conjunto de datos CIFAR-10. El flujo de trabajo incluye pasos de preprocesamiento de datos como el cambio de tamaño y la normalización, la implementación de un patrón de transformación, la construcción y el entrenamiento de una red neuronal convolucional (CNN), el seguimiento de experimentos utilizando Weights & Biases (wandb) y la sintonización de hiperparámetros.
 
-## Feature Engineering/Data Preprocessing
+## Ingeniería de Características/Preprocesamiento de Datos
 
-Feature engineering and data preprocessing are crucial steps in preparing data for machine learning models. In this project, we perform the following steps:
+La ingeniería de características y el preprocesamiento de datos son pasos cruciales para preparar los datos para los modelos de aprendizaje automático. En este proyecto, realizamos los siguientes pasos:
 
-### Preprocessing (Resizing, Normalization, etc.)
+### Preprocesamiento (Cambio de Tamaño, Normalización, etc.)
 
-- **Resizing**: Adjusting the images to a consistent size to ensure uniformity in input dimensions.
-- **Normalization**: Scaling pixel values to a standard range, typically [0, 1], to help the model converge faster during training.
+- **Cambio de Tamaño**: Ajustar las imágenes a un tamaño consistente para asegurar la uniformidad en las dimensiones de entrada.
+- **Normalización**: Escalar los valores de los píxeles a un rango estándar, típicamente [0, 1], para ayudar al modelo a converger más rápido durante el entrenamiento.
 
-These preprocessing steps help in transforming raw data into a format suitable for modeling, enhancing the model's performance and training efficiency.
+Estos pasos de preprocesamiento ayudan a transformar los datos brutos en un formato adecuado para la modelización, mejorando el rendimiento y la eficiencia del entrenamiento del modelo.
 
-### Transform Pattern
+### Patrón de Transformación
 
-The transform pattern involves creating a preprocessing pipeline that standardizes the input data before it is fed into the model. This ensures that the data is in the right format and scale, making the training process more efficient.
+El patrón de transformación implica crear una canalización de preprocesamiento que estandarice los datos de entrada antes de que sean alimentados al modelo. Esto asegura que los datos estén en el formato y la escala correctos, haciendo que el proceso de entrenamiento sea más eficiente.
 
-## Modeling
+## Modelado
 
-In this project, we build a Convolutional Neural Network (CNN) using TensorFlow and Keras. The model is designed to classify images from the CIFAR-10 dataset, which consists of 60,000 32x32 color images in 10 different classes.
+En este proyecto, construimos una Red Neuronal Convolucional (CNN) utilizando TensorFlow y Keras. El modelo está diseñado para clasificar imágenes del conjunto de datos CIFAR-10, que consta de 60,000 imágenes en color de 32x32 en 10 clases diferentes.
 
-The modeling process includes:
+El proceso de modelado incluye:
 
-- **Defining the Model Architecture**: Building a CNN with multiple layers including convolutional layers, batch normalization, max pooling, dropout, and dense layers.
-- **Compiling the Model**: Setting the optimizer, loss function, and metrics for the model.
-- **Training the Model**: Fitting the model on the training data and validating it on the test data.
+- **Definición de la Arquitectura del Modelo**: Construcción de una CNN con múltiples capas, incluyendo capas convolucionales, normalización por lotes, agrupación máxima, abandono y capas densas.
+- **Compilación del Modelo**: Configuración del optimizador, la función de pérdida y las métricas para el modelo.
+- **Entrenamiento del Modelo**: Ajuste del modelo en los datos de entrenamiento y validación en los datos de prueba.
 
-### Experiment Tracking with wandb
+### Seguimiento de Experimentos con wandb
 
-Experiment tracking is essential for keeping records of different model runs, including their configurations, hyperparameters, and results. We use Weights & Biases (wandb) to track our experiments. This allows us to monitor the training process, compare different runs, and analyze the performance of the model over time.
+El seguimiento de experimentos es esencial para mantener registros de diferentes ejecuciones del modelo, incluidas sus configuraciones, hiperparámetros y resultados. Utilizamos Weights & Biases (wandb) para rastrear nuestros experimentos. Esto nos permite monitorear el proceso de entrenamiento, comparar diferentes ejecuciones y analizar el rendimiento del modelo a lo largo del tiempo.
 
-### Wandb Alerts
+### Alertas de wandb
 
-Wandb provides alerts to monitor training progress and notify you of any significant events, such as achieving a new best accuracy or encountering a drop in performance. Alerts help in keeping track of the training process and quickly responding to issues.
+Wandb proporciona alertas para monitorear el progreso del entrenamiento y notificarte sobre cualquier evento significativo, como alcanzar una nueva mejor precisión o encontrar una caída en el rendimiento. Las alertas ayudan a mantener el control del proceso de entrenamiento y responder rápidamente a los problemas.
 
-## Hyperparameter Tuning
+## Sintonización de Hiperparámetros
 
-Hyperparameter tuning involves finding the best set of hyperparameters for the model. This can include tuning the learning rate, batch size, number of epochs, and architecture-specific parameters like the number of filters in convolutional layers. We use tools like wandb sweeps for systematic hyperparameter optimization.
+La sintonización de hiperparámetros implica encontrar el mejor conjunto de hiperparámetros para el modelo. Esto puede incluir ajustar la tasa de aprendizaje, el tamaño del lote, el número de épocas y parámetros específicos de la arquitectura como el número de filtros en las capas convolucionales. Utilizamos herramientas como wandb sweeps para la optimización sistemática de hiperparámetros.
 
 ---
 
-This README provides an overview of the key components of the project. If you need further customization or additional sections, please let me know!
+Este README proporciona una visión general de los componentes clave del proyecto. Si necesitas más personalización o secciones adicionales, ¡por favor házmelo saber!
