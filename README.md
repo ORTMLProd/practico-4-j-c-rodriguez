@@ -2,7 +2,7 @@
 
 Este proyecto demuestra el proceso de ingeniería de features y preprocesamiento de datos para entrenar un modelo de aprendizaje profundo en el conjunto de datos CIFAR-10. 
 
-El flujo de trabajo incluye pasos de preprocesamiento de datos como el cambio de tamaño y la normalización, la implementación de un patrón de transformación, la construcción y el entrenamiento de una red neuronal convolucional (CNN), el seguimiento de experimentos utilizando Weights & Biases (wandb) y jobs de Hyperparameter tuning
+El flujo de trabajo incluye pasos de preprocesamiento de datos como el cambio de tamaño y la normalización, la implementación de Transfer Pattern, la construcción y el entrenamiento de una red neuronal convolucional (CNN), el seguimiento de experimentos utilizando Weights & Biases (wandb) Alertas y jobs de Hyperparameter tuning
 
 ## Feature Engineering/Data Preprocessing
 
@@ -19,7 +19,7 @@ Estos pasos de preprocesamiento ayudan a transformar los datos brutos en un form
 
 ### Transform Pattern
 
-Transform Pattern implica crear una canalización de preprocesamiento que estandarice los datos de entrada antes de que sean alimentados al modelo. 
+Transform Pattern implica crear un pipeline de preprocesamiento que estandarice los datos de entrada antes de que sean alimentados al modelo. 
 Esto asegura que los datos estén en el formato y la escala correctos, haciendo que el proceso de entrenamiento sea más eficiente.
 
 ## Modelado
@@ -28,7 +28,7 @@ En este proyecto, construimos una Red Neuronal Convolucional (CNN) utilizando Te
 
 El proceso de modelado incluye:
 
-- **Definición de la Arquitectura del Modelo**: Construcción de una CNN con múltiples capas, incluyendo capas convolucionales, normalización por lotes, agrupación máxima, abandono y capas densas.
+- **Definición de la Arquitectura del Modelo**: Construcción de una CNN con múltiples capas, incluyendo capas convolucionales, normalización por lotes, agrupación máxima, dropout y capas densas.
 - **Compilación del Modelo**: Configuración del optimizador, la función de pérdida y las métricas para el modelo.
 - **Entrenamiento del Modelo**: Ajuste del modelo en los datos de entrenamiento y validación en los datos de prueba.
 
