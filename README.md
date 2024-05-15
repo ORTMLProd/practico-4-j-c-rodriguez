@@ -32,7 +32,9 @@ El proceso de modelado incluye:
 - **Compilación del Modelo**: Configuración del optimizador, la función de pérdida y las métricas para el modelo.
 - **Entrenamiento del Modelo**: Ajuste del modelo en los datos de entrenamiento y validación en los datos de prueba.
 
-### Seguimiento de Experimentos con wandb
+### Seguimiento de Experimentos con wandb 
+
+https://wandb.ai/
 
 El seguimiento de experimentos es esencial para mantener registros de diferentes ejecuciones del modelo, incluidas sus configuraciones, hiperparámetros y resultados. Utilizamos Weights & Biases (wandb) para rastrear nuestros experimentos. Esto nos permite monitorear el proceso de entrenamiento, comparar diferentes ejecuciones y analizar el rendimiento del modelo a lo largo del tiempo.
 
