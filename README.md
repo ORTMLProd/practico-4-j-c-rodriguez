@@ -2,7 +2,7 @@
 
 Este proyecto demuestra el proceso de ingeniería de features y preprocesamiento de datos para entrenar un modelo de aprendizaje profundo en el conjunto de datos CIFAR-10. 
 
-El flujo de trabajo incluye pasos de preprocesamiento de datos como el cambio de tamaño y la normalización, la implementación de un patrón de transformación, la construcción y el entrenamiento de una red neuronal convolucional (CNN), el seguimiento de experimentos utilizando Weights & Biases (wandb) y la sintonización de hiperparámetros.
+El flujo de trabajo incluye pasos de preprocesamiento de datos como el cambio de tamaño y la normalización, la implementación de un patrón de transformación, la construcción y el entrenamiento de una red neuronal convolucional (CNN), el seguimiento de experimentos utilizando Weights & Biases (wandb) y jobs de Hyperparameter tuning
 
 ## Feature Engineering/Data Preprocessing
 
