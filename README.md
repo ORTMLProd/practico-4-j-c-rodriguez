@@ -15,9 +15,10 @@ La ingeniería de características y el preprocesamiento de datos son pasos cruc
 
 Estos pasos de preprocesamiento ayudan a transformar los datos brutos en un formato adecuado para la modelización, mejorando el rendimiento y la eficiencia del entrenamiento del modelo.
 
-### Patrón de Transformación
+### Transform Pattern
 
-El patrón de transformación implica crear una canalización de preprocesamiento que estandarice los datos de entrada antes de que sean alimentados al modelo. Esto asegura que los datos estén en el formato y la escala correctos, haciendo que el proceso de entrenamiento sea más eficiente.
+Transform Pattern implica crear una canalización de preprocesamiento que estandarice los datos de entrada antes de que sean alimentados al modelo. 
+Esto asegura que los datos estén en el formato y la escala correctos, haciendo que el proceso de entrenamiento sea más eficiente.
 
 ## Modelado
 
