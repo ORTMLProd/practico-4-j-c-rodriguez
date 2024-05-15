@@ -1,6 +1,8 @@
 # Práctico 4
 
-Este proyecto demuestra el proceso de ingeniería de características y preprocesamiento de datos para entrenar un modelo de aprendizaje profundo en el conjunto de datos CIFAR-10. El flujo de trabajo incluye pasos de preprocesamiento de datos como el cambio de tamaño y la normalización, la implementación de un patrón de transformación, la construcción y el entrenamiento de una red neuronal convolucional (CNN), el seguimiento de experimentos utilizando Weights & Biases (wandb) y la sintonización de hiperparámetros.
+Este proyecto demuestra el proceso de ingeniería de features y preprocesamiento de datos para entrenar un modelo de aprendizaje profundo en el conjunto de datos CIFAR-10. 
+
+El flujo de trabajo incluye pasos de preprocesamiento de datos como el cambio de tamaño y la normalización, la implementación de un patrón de transformación, la construcción y el entrenamiento de una red neuronal convolucional (CNN), el seguimiento de experimentos utilizando Weights & Biases (wandb) y la sintonización de hiperparámetros.
 
 ## Ingeniería de Características/Preprocesamiento de Datos
 
@@ -38,7 +40,3 @@ Wandb proporciona alertas para monitorear el progreso del entrenamiento y notifi
 ## Sintonización de Hiperparámetros
 
 La sintonización de hiperparámetros implica encontrar el mejor conjunto de hiperparámetros para el modelo. Esto puede incluir ajustar la tasa de aprendizaje, el tamaño del lote, el número de épocas y parámetros específicos de la arquitectura como el número de filtros en las capas convolucionales. Utilizamos herramientas como wandb sweeps para la optimización sistemática de hiperparámetros.
-
----
-
-Este README proporciona una visión general de los componentes clave del proyecto. Si necesitas más personalización o secciones adicionales, ¡por favor házmelo saber!
