@@ -4,9 +4,11 @@ Este proyecto demuestra el proceso de ingeniería de features y preprocesamiento
 
 El flujo de trabajo incluye pasos de preprocesamiento de datos como el cambio de tamaño y la normalización, la implementación de un patrón de transformación, la construcción y el entrenamiento de una red neuronal convolucional (CNN), el seguimiento de experimentos utilizando Weights & Biases (wandb) y la sintonización de hiperparámetros.
 
-## Ingeniería de Características/Preprocesamiento de Datos
+## Feature Engineering/Data Preprocessing
 
-La ingeniería de características y el preprocesamiento de datos son pasos cruciales para preparar los datos para los modelos de aprendizaje automático. En este proyecto, realizamos los siguientes pasos:
+La ingeniería de características y el preprocesamiento de datos son pasos cruciales para preparar los datos para los modelos de aprendizaje automático. 
+
+En este proyecto, realizamos los siguientes pasos:
 
 ### Preprocesamiento (resizing, normalization, etc.)
 
