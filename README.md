@@ -6,7 +6,7 @@ El flujo de trabajo incluye pasos de preprocesamiento de datos como el cambio de
 
 ## Feature Engineering/Data Preprocessing
 
-La ingeniería de características y el preprocesamiento de datos son pasos cruciales para preparar los datos para los modelos de aprendizaje automático. 
+La ingeniería de features y el preprocesamiento de datos son pasos cruciales para preparar los datos para los modelos de aprendizaje automático. 
 
 En este proyecto, realizamos los siguientes pasos:
 
